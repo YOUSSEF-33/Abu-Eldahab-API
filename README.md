@@ -15,7 +15,6 @@ This project includes authentication workflows, email utilities, API organizatio
 * 📂 Modular Project Structure
 * 🌐 Express.js Backend
 * 🗄️ Database Integration
-* ☁️ Ready for Docker & Cloud Deployment
 * 🧹 Clean and Maintainable Codebase
 
 ---
@@ -23,7 +22,7 @@ This project includes authentication workflows, email utilities, API organizatio
 # 🛠️ Tech Stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,docker,git,github,postman" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,git,github,postman" />
 </p>
 
 ---
@@ -85,7 +84,7 @@ Create a `.env` file in the root directory and add:
 
 ```env
 PORT=5000
-MONGO_URI=your_mongodb_connection
+DATABASE_URL=your_postgresql_connection
 JWT_SECRET=your_secret_key
 EMAIL_USER=your_email
 EMAIL_PASS=your_password
@@ -153,4 +152,4 @@ This API can be deployed using:
 
 # ⭐ Support
 
-If you like this project, consider giving it a star on GitHu
+If you like this project, consider giving it a star on GitHub 🚀
